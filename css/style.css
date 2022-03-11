@@ -1,0 +1,14 @@
+a {
+    text-decoration: none;
+}
+
+.titulo {
+    color: #075758;
+    font-size: 5vmin;
+    font-weight: 800;
+}
+
+.subtitulo {
+    color: #075758;
+    font-weight: 700;
+}

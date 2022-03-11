@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="./../css/style.css">
+    <title>HealthTrack</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-light navbar-light py-3 fixed-top">
+        <div class="container">
+            <a href="./../index.html" class="titulo">HealthTrack</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="./nos-conheca.html" class="nav-link">Nos Conheça</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./minhas-medidas.html" class="nav-link">Minhas Medidas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./login.html" class="nav-link">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="p-5">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md">
+                    <img src="./../img/imc.jpeg" class="img-fluid my-5" alt="homem se exercitando">
+                </div>
+                <div class="col-md p-5">
+                    <h2 class="subtitulo">O que é o IMC?</h2>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque
+                        reiciendis eius autem eveniet mollitia, at asperiores suscipit
+                        quae similique laboriosam iste minus placeat odit velit quos,
+                        nulla architecto amet voluptates?
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container mb-5">
+            <form>
+                <div class="mb-3">
+                    <label for="exampleInputAltura" class="form-label">Altura</label>
+                    <input type="number" class="form-control" id="exampleInputAltura" aria-describedby="Altura">                    
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPeso" class="form-label">Peso</label>
+                    <input type="number" class="form-control" id="exampleInputPeso">
+                </div>              
+                <button type="submit" class="btn btn-primary">Calcular</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+        </script>
+
+</body>
+
+</html>
